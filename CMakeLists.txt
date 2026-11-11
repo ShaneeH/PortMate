@@ -16,6 +16,7 @@ qt_add_executable(port_mate
     services/portservice.h services/portservice.cpp
     models/port.h
     models/process.h
+    models/socket.h
 )
 
 target_link_libraries(port_mate
